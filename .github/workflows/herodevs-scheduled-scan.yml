@@ -3,7 +3,7 @@
 # This workflow does no work itself: its completed runs notify the HeroDevs
 # platform (workflow_run webhook), which scans 'main' and opens
 # pull requests against 'main' server-side.
-name: HeroDevs ARP scan trigger (scheduled)
+name: HeroDevs Evergreen scan (scheduled)
 
 on:
   schedule:
